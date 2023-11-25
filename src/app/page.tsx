@@ -95,7 +95,7 @@ export default function Home() {
 
       setRotate({ x: rotateX / 6, y: rotateY / 6 });
     }, 100),
-    []
+    [throttle]
   );
 
   const onMouseLeave = () => {
@@ -115,7 +115,7 @@ export default function Home() {
               transition: "all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s",
             }}
           >
-            TYLER'S WISHLIST
+            {"TYLER'S WISHLIST"}
           </h1>
         </div>
         <div className="p-6 w-full">
