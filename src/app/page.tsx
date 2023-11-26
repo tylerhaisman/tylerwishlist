@@ -4,9 +4,12 @@ import { MouseEvent, useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Arrow from "../../public/icons/arrow-right-349-svgrepo-com.svg";
+import Plus from "../../public/icons/plus-1512-svgrepo-com.svg";
 
 export default function Home() {
   const [wishlistData, setWishlistData] = useState<Array<any>>([]);
+  const [password, setPassword] = useState("");
+  const [showAddItem, setShowAddItem] = useState(false);
 
   useEffect(() => {
     const data = [
@@ -33,6 +36,13 @@ export default function Home() {
         size: "L",
         link: "https://www.adidas.com/us/trefoil-essentials-tee/IM4538.html?forceSelSize=L",
         description: "Grey T-shirt",
+      },
+      {
+        name: "Crewneck",
+        size: "L",
+        link: "https://www.amazon.com/Hanes-Ecosmart-Fleece-Sweatshirt-Black/dp/B01L8JJ57U/ref=sr_1_5?crid=2W1MNVUYDH5S3&keywords=mens%2Bcrewneck%2Bsweatshirts&qid=1701026456&sprefix=mens%2Bcrewne%2Caps%2C105&sr=8-5&th=1&psc=1",
+        description: "Going to be cold...",
+        new: true,
       },
       {
         name: "Pants",
@@ -125,6 +135,11 @@ export default function Home() {
                 {item.name && (
                   <div className="flex justify-between items-start gap-6 md:flex-row md:items-center flex-col">
                     <div className="">
+                      {item.new && item.new == true && (
+                        <p className="text-sm font-sans px-2 bg-white text-slate-700 rounded-full w-fit mb-2">
+                          NEW
+                        </p>
+                      )}
                       <h1 className="text-2xl font-sans font-semibold">
                         {item.name}
                       </h1>
@@ -199,7 +214,34 @@ export default function Home() {
         <p className="text-sm font-sans mt-24">
           Thank you for checking out my list!
         </p>
+        {/* <button className="flex gap-2 items-center justify-center py-2 px-6 bg-white text-slate-700 rounded-full hover:shadow-xl hover:-translate-y-1 duration-200">
+          <p className="font-sans text-xl">Add New Item</p>
+          <Image src={Plus} alt="" width={20} height={20}></Image>
+        </button> */}
       </div>
+      {/* <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center">
+        <div className="bg-white text-slate-700 p-8 rounded-xl shadow-lg">
+          <form onSubmit={(e) => {
+            e.preventDefault();
+            if(password !== "TYlerWishlist2023!"){
+              toast.error("Incorrect Password.");
+            }
+            else{
+              setShowAddItem(true);
+            }
+          }} className="flex flex-col justify-center items-center">
+            <p className="font-sans text-xl">Please enter the password:</p>
+            <input
+              type="text"
+              className="w-full border-2 border-slate-700 rounded-full mt-3 outline-none px-2 py-1"
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <button className="font-sans text-xl bg-slate-700 text-white py-2 px-6 rounded-full mt-3">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div> */}
     </div>
   );
 }
