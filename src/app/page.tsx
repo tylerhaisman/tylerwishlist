@@ -13,61 +13,60 @@ export default function Home() {
 
   useEffect(() => {
     const data = [
-      {
-        name: "New Balance 550",
-        size: "10.5",
-        color: "White with Vintage Indigo",
-        link: "https://www.newbalance.com/pd/550/BB550V1-43389.html?dwvar_BB550V1-43389_style=BB550STG",
-        description: "Want some shoes between slippers and tennis shoes",
-      },
-      {
-        name: "New iPhone 14 Pro case",
-        link: "https://www.amazon.com/Spigen-Hybrid-MagFit-Designed-iPhone/dp/B0BBWM6PN9/ref=asc_df_B0BBWM6PN9/?tag=hyprod-20&linkCode=df0&hvadid=598244023656&hvpos=&hvnetw=g&hvrand=8817517426675049679&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9011698&hvtargid=pla-1877738067045&mcid=6ca0eef532a53e308758f67b46c53c07&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC71z1kq6paA5FK9xZaXX2Z-AluvRUEcZ13njZG5RPLLxWc74wcRrHRoCdysQAvD_BwE&th=1",
-        description: "Cool and fitting for computer science :]",
-      },
-      {
-        name: "T-shirt",
-        size: "L",
-        link: "https://www.amazon.com/dp/B004HTQ93W/?coliid=ITZQXY1SP0O5U&colid=1QMHU5X8WHM3&psc=1&ref_=list_c_wl_gv_ov_lig_pi_dp",
-        description: "Blue T-shirt",
-      },
-      {
-        name: "T-shirt",
-        size: "L",
-        link: "https://www.adidas.com/us/trefoil-essentials-tee/IM4538.html?forceSelSize=L",
-        description: "Grey T-shirt",
-      },
-      {
-        name: "Crewneck",
-        size: "L",
-        link: "https://www.amazon.com/Hanes-Ecosmart-Fleece-Sweatshirt-Black/dp/B01L8JJ57U/ref=sr_1_5?crid=2W1MNVUYDH5S3&keywords=mens%2Bcrewneck%2Bsweatshirts&qid=1701026456&sprefix=mens%2Bcrewne%2Caps%2C105&sr=8-5&th=1&psc=1",
-        description: "Going to be cold...",
-        new: true,
-      },
-      {
-        name: "Pants",
-        size: "S Tall",
-        link: "https://www.ae.com/us/en/p/men/pants/cargo-pants/ae-relaxed-cargo-pant/1523_4878_212?menu=cat4840004",
-        description: "This size is a complete guess. I may need to verify it.",
-      },
-      {
-        name: "Studio Microphone",
-        link: "https://www.amazon.com/dp/B0006H92QK/?coliid=I21D3TCSVE2L3X&colid=1QMHU5X8WHM3&ref_=list_c_wl_gv_ov_lig_pi_dp&th=1",
-        description: "For music production",
-      },
+      // {
+      //   name: "New Balance 550",
+      //   size: "10.5",
+      //   color: "White with Vintage Indigo",
+      //   link: "https://www.newbalance.com/pd/550/BB550V1-43389.html?dwvar_BB550V1-43389_style=BB550STG",
+      //   description: "Want some shoes between slippers and tennis shoes",
+      // },
+      // {
+      //   name: "New iPhone 14 Pro case",
+      //   link: "https://www.amazon.com/Spigen-Hybrid-MagFit-Designed-iPhone/dp/B0BBWM6PN9/ref=asc_df_B0BBWM6PN9/?tag=hyprod-20&linkCode=df0&hvadid=598244023656&hvpos=&hvnetw=g&hvrand=8817517426675049679&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9011698&hvtargid=pla-1877738067045&mcid=6ca0eef532a53e308758f67b46c53c07&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC71z1kq6paA5FK9xZaXX2Z-AluvRUEcZ13njZG5RPLLxWc74wcRrHRoCdysQAvD_BwE&th=1",
+      //   description: "Cool and fitting for computer science :]",
+      // },
+      // {
+      //   name: "T-shirt",
+      //   size: "L",
+      //   link: "https://www.amazon.com/dp/B004HTQ93W/?coliid=ITZQXY1SP0O5U&colid=1QMHU5X8WHM3&psc=1&ref_=list_c_wl_gv_ov_lig_pi_dp",
+      //   description: "Blue T-shirt",
+      // },
+      // {
+      //   name: "T-shirt",
+      //   size: "L",
+      //   link: "https://www.adidas.com/us/trefoil-essentials-tee/IM4538.html?forceSelSize=L",
+      //   description: "Grey T-shirt",
+      // },
+      // {
+      //   name: "Crewneck",
+      //   size: "L",
+      //   link: "https://www.amazon.com/Hanes-Ecosmart-Fleece-Sweatshirt-Black/dp/B01L8JJ57U/ref=sr_1_5?crid=2W1MNVUYDH5S3&keywords=mens%2Bcrewneck%2Bsweatshirts&qid=1701026456&sprefix=mens%2Bcrewne%2Caps%2C105&sr=8-5&th=1&psc=1",
+      //   description: "Going to be cold...",
+      //   new: true,
+      // },
       {
         name: "New cologne",
         description: "This may be something I need to go to the store for...",
       },
       {
-        name: "Electric Skillet",
-        link: "https://www.amazon.com/dp/B004PEIY9G/?coliid=I28JSBCCLYDQG0&colid=1QMHU5X8WHM3&psc=1&ref_=list_c_wl_gv_ov_lig_pi_dp",
-        description: "May be able to cook some cool things",
-      },
-      {
         name: "Amazon gift cards or cash",
         link: "https://www.amazon.com/Amazon-com-Gift-Card-Reindeer-Ornament/dp/B07FK7L976/ref=sr_1_3?crid=2CRMA1CUE8984&keywords=gift%2Bcards&qid=1700892909&sprefix=gift%2B%2Caps%2C132&sr=8-3&th=1",
         description: "Always exciting",
+      },
+      {
+        name: "Hollister Gift Card",
+        link: "https://hollisterco.com",
+        description: "Clothes",
+      },
+      {
+        name: "American Eagle Gift Card",
+        link: "https://ae.com",
+        description: "Clothes",
+      },
+      {
+        name: "Magsafe Phone Wallet",
+        link: "https://www.amazon.com/Upgraded-Magnetic-Wallet-Magsafe-Leather/dp/B0BYTXHG2T/ref=sr_1_4?crid=2DYF94TBL04KI&dib=eyJ2IjoiMSJ9.G7sD17W8b2qI7tN6wrg-JMG_SgsgV9ouwBkcp3uuPyCuCVW2CnbzfU8P4lKTRHVLuRDP2hiDjaE4kfHa2WiHqgHuvdCuKkHEpb9XCrYFPdz7LVVrYuz0Uwn9NDP_4QBpRRkA4lu0NkCtkli5MnIh4LA99T7HmPFEkXLZ06sLmko9T_5acJcs8w4ABhbX780a-dFeQxsusuDAQBDZfGyRWo44C0PWFGgPQ718Q8tkjFQ.vyktJZYjZ5gRcXbFzY71xsFlV16aIqodpmMbVGW_DAE&dib_tag=se&keywords=magsafe%2Bwallet%2Bmen&qid=1731699540&sprefix=magsafe%2Bwall%2Caps%2C137&sr=8-4&th=1",
+        description: "So I don't lose another credit card",
       },
     ];
     setWishlistData(data);
