@@ -68,6 +68,10 @@ export default function Home() {
         link: "https://www.amazon.com/Upgraded-Magnetic-Wallet-Magsafe-Leather/dp/B0BYTXHG2T/ref=sr_1_4?crid=2DYF94TBL04KI&dib=eyJ2IjoiMSJ9.G7sD17W8b2qI7tN6wrg-JMG_SgsgV9ouwBkcp3uuPyCuCVW2CnbzfU8P4lKTRHVLuRDP2hiDjaE4kfHa2WiHqgHuvdCuKkHEpb9XCrYFPdz7LVVrYuz0Uwn9NDP_4QBpRRkA4lu0NkCtkli5MnIh4LA99T7HmPFEkXLZ06sLmko9T_5acJcs8w4ABhbX780a-dFeQxsusuDAQBDZfGyRWo44C0PWFGgPQ718Q8tkjFQ.vyktJZYjZ5gRcXbFzY71xsFlV16aIqodpmMbVGW_DAE&dib_tag=se&keywords=magsafe%2Bwallet%2Bmen&qid=1731699540&sprefix=magsafe%2Bwall%2Caps%2C137&sr=8-4&th=1",
         description: "So I don't lose another credit card",
       },
+      {
+        name: "Some kind of weekend trip?",
+        description: "To visit friends in Texas or something else fun?",
+      },
     ];
     setWishlistData(data);
   }, []);
