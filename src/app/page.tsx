@@ -49,6 +49,7 @@ export default function Home() {
         link: "https://www.fanatics.com/college/florida-gators/-florida-gators-cutter-and-buck-forge-eco-double-stripe-stretch-recycled-polo-orange/o-27+t-78508514+p-46221183726010+z-9-526509561?_ref=p-GALP:m-GRID:i-r5c0:po-15&sku=201667355",
         description: "Color: Blue",
         size: "L",
+        new: true,
       },
       // {
       //   name: "Gators Polo 02",
@@ -58,16 +59,26 @@ export default function Home() {
       {
         name: "Other polos for work",
         size: "L",
+        new: true,
       },
       {
         name: "Gators Crewneck",
         link: "https://www.fanatics.com/college/florida-gators/sweatshirts/florida-gators-league-collegiate-wear-essentials-20-fleece-pullover-sweatshirt-heather-gray/o-38+t-78059681+d-08997876+f-572932349+z-8-2598979762?utm_medium=cse&_s=GPA_CA&sku=206970606&targetid=targetid&targetid=pla-293946777986&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RS1xC6-6e_jU4dVZn5ixpvy7qtcmvRplsCaHgnpWGG52umHHyC89GUaAlVvEALw_wcB",
         size: "L",
+        new: true,
       },
       {
         name: "Gators T-Shirt",
         link: "https://www.fanatics.com/college/florida-gators/florida-gators-state-scenery-comfort-colors-t-shirt-blue/o-16+t-56383081+p-141187722482+z-9-1957503641?_ref=p-GALP:m-GRID:i-r18c0:po-54&sku=10720984",
         size: "XL",
+        new: true,
+      },
+      {
+        name: "Underwear",
+        link: "https://www.amazon.com/Calvin-Klein-Micro-Stretch-5-Pack/dp/B09Z73MZXB/ref=sr_1_7?crid=1J56Y1TWU57EC&dib=eyJ2IjoiMSJ9.g3W0J_HXP77QPP2OxnWJBPtq6E8cqIB3NLey4XvImrNzTmmk2cwmZytgP8klayGEIYJdW537GLXpPp6asLL-hrooJgbvgUX84cV9gGouqT2VCXKdQugciT2o5rY2mjUy7rFdIdcW2Nh__m9ZYAtJTwXc2P0WcrIX4bMlKobEq8teKfvn-DnGPMUYnimx_81cnMY7WP3V7kaj5rn9d4XiAimj1BUfEabHbjFIGFlPpiL0wUDNCWZoZDQo0oGYf5Tnz1uAZvTuXasBT2TD598pCAGXPXTP9_qeTYt9OpL6Hv4.CkSh212e6uov5S8kAlnd8Ba1JzxcHg3czpfVL_TInL0&dib_tag=se&keywords=Calvin%2BKlein%2BMen%27s%2BMicro%2BStretch&qid=1731872679&sprefix=calvin%2Bklein%2Bmen%27s%2Bmicro%2Bstretch%2Caps%2C127&sr=8-7&th=1&psc=1",
+        description: "I actually need underwear",
+        size: "M",
+        new: true,
       },
       {
         name: "Hollister Gift Card",
