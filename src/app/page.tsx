@@ -45,13 +45,29 @@ export default function Home() {
       //   new: true,
       // },
       {
-        name: "New cologne",
-        description: "This may be something I need to go to the store for...",
+        name: "Gators Polo",
+        link: "https://www.fanatics.com/college/florida-gators/-florida-gators-cutter-and-buck-forge-eco-double-stripe-stretch-recycled-polo-orange/o-27+t-78508514+p-46221183726010+z-9-526509561?_ref=p-GALP:m-GRID:i-r5c0:po-15&sku=201667355",
+        description: "Color: Blue",
+        size: "L",
+      },
+      // {
+      //   name: "Gators Polo 02",
+      //   link: "https://www.fanatics.com/college/florida-gators/florida-gators-colosseum-down-swing-polo-black/o-38+t-89169692+p-026375129821+z-9-4213531548?_ref=p-GALP:m-GRID:i-r7c1:po-22&sku=9420310",
+      //   size: "L",
+      // },
+      {
+        name: "Other polos for work",
+        size: "L",
       },
       {
-        name: "Amazon gift cards or cash",
-        link: "https://www.amazon.com/Amazon-com-Gift-Card-Reindeer-Ornament/dp/B07FK7L976/ref=sr_1_3?crid=2CRMA1CUE8984&keywords=gift%2Bcards&qid=1700892909&sprefix=gift%2B%2Caps%2C132&sr=8-3&th=1",
-        description: "Always exciting",
+        name: "Gators Crewneck",
+        link: "https://www.fanatics.com/college/florida-gators/sweatshirts/florida-gators-league-collegiate-wear-essentials-20-fleece-pullover-sweatshirt-heather-gray/o-38+t-78059681+d-08997876+f-572932349+z-8-2598979762?utm_medium=cse&_s=GPA_CA&sku=206970606&targetid=targetid&targetid=pla-293946777986&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RS1xC6-6e_jU4dVZn5ixpvy7qtcmvRplsCaHgnpWGG52umHHyC89GUaAlVvEALw_wcB",
+        size: "L",
+      },
+      {
+        name: "Gators T-Shirt",
+        link: "https://www.fanatics.com/college/florida-gators/florida-gators-state-scenery-comfort-colors-t-shirt-blue/o-16+t-56383081+p-141187722482+z-9-1957503641?_ref=p-GALP:m-GRID:i-r18c0:po-54&sku=10720984",
+        size: "XL",
       },
       {
         name: "Hollister Gift Card",
@@ -64,9 +80,18 @@ export default function Home() {
         description: "Clothes",
       },
       {
+        name: "Amazon gift cards or cash",
+        link: "https://www.amazon.com/Amazon-com-Gift-Card-Reindeer-Ornament/dp/B07FK7L976/ref=sr_1_3?crid=2CRMA1CUE8984&keywords=gift%2Bcards&qid=1700892909&sprefix=gift%2B%2Caps%2C132&sr=8-3&th=1",
+        description: "Always exciting",
+      },
+      {
         name: "Magsafe Phone Wallet",
         link: "https://www.amazon.com/Upgraded-Magnetic-Wallet-Magsafe-Leather/dp/B0BYTXHG2T/ref=sr_1_4?crid=2DYF94TBL04KI&dib=eyJ2IjoiMSJ9.G7sD17W8b2qI7tN6wrg-JMG_SgsgV9ouwBkcp3uuPyCuCVW2CnbzfU8P4lKTRHVLuRDP2hiDjaE4kfHa2WiHqgHuvdCuKkHEpb9XCrYFPdz7LVVrYuz0Uwn9NDP_4QBpRRkA4lu0NkCtkli5MnIh4LA99T7HmPFEkXLZ06sLmko9T_5acJcs8w4ABhbX780a-dFeQxsusuDAQBDZfGyRWo44C0PWFGgPQ718Q8tkjFQ.vyktJZYjZ5gRcXbFzY71xsFlV16aIqodpmMbVGW_DAE&dib_tag=se&keywords=magsafe%2Bwallet%2Bmen&qid=1731699540&sprefix=magsafe%2Bwall%2Caps%2C137&sr=8-4&th=1",
         description: "So I don't lose another credit card",
+      },
+      {
+        name: "New cologne",
+        description: "This may be something I need to go to the store for...",
       },
       {
         name: "Some kind of weekend trip?",
@@ -214,7 +239,7 @@ export default function Home() {
             </li> */}
           </ul>
         </div>
-        <p className="text-sm font-sans mt-24">
+        <p className="text-xl font-sans mt-24">
           Thank you for checking out my list!
         </p>
         {/* <button className="flex gap-2 items-center justify-center py-2 px-6 bg-white text-slate-700 rounded-full hover:shadow-xl hover:-translate-y-1 duration-200">
